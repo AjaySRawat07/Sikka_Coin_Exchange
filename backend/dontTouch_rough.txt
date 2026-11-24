@@ -1,0 +1,9 @@
+Before we add JWT session tokens, answer this scenario without looking at code:
+
+Scenario: A user enters their correct email and password, but their account has status PENDING_VERIFICATION.
+
+1. What HTTP status code does the client receive?
+
+2. Did the Argon2 password verification run, or did the status check block it before hashing?
+
+3. Why is that specific ordering (password verification before status check) important for security?
